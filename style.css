@@ -1,0 +1,23 @@
+.round-image {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+
+  .round-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Custom styles for horizontal scrolling */
+  .scrollable-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .custom-opacity {
+    opacity: 0.5;
+  }
